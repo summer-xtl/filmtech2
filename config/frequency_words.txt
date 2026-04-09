@@ -153,30 +153,30 @@
 #                         企业与品牌
 # ═══════════════════════════════════════════════════════════════
 
-/胖东来|于东来/ => 胖东来
+#/胖东来|于东来/ => 胖东来
 
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
 
-/华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
+#/华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
 
-/比亚迪|王传福|方程豹|腾势|仰望|弗迪|刀片电池|云辇|\bBYD\b|\bDenza\b|\bYangwang\b/ => 比亚迪
+#/比亚迪|王传福|方程豹|腾势|仰望|弗迪|刀片电池|云辇|\bBYD\b|\bDenza\b|\bYangwang\b/ => 比亚迪
 
-/大疆|汪滔|灵眸|如影|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => 大疆
+#/大疆|汪滔|灵眸|如影|\bDJI\b|\bRoboMaster\b|\bMavic\b|\bZenmuse\b/ => 大疆
 
-/宇树|王兴兴|\bUnitree\b/ => 宇树机器人
+#/宇树|王兴兴|\bUnitree\b/ => 宇树机器人
 
-/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
-/众擎|EngineAI|赵同阳/ => 众擎机器人
+#/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
+#/众擎|EngineAI|赵同阳/ => 众擎机器人
 
-/黑神话|冯骥/ => 黑神话悟空
+#/黑神话|冯骥/ => 黑神话悟空
 
-/影之刃零|梁其伟/ => 影之刃零
+#/影之刃零|梁其伟/ => 影之刃零
 
-/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
+#/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
 
-申奥
+#申奥
 
-/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
+#/京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
 
 /字节|张一鸣|梁汝波|抖音|\bByteDance\b|\bTikTok\b|\bDouyin\b|\bLark\b|\bCapCut\b/ => 字节跳动
 
@@ -184,14 +184,14 @@
 
 /qwen|minimax|glm/ => 国产开源模型
 
-/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
+#/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
 
 /英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
-/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
+#/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
 
-/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
+#/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
 /谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
-/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
+#/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
 
 /\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
 /\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
@@ -230,11 +230,13 @@
 [AI 相关]
 /(?<![a-zA-Z])ai(?![a-zA-Z])/
 人工智能
+AIGC
 
 [芯片]
 芯片
 光刻机
 半导体
+图像传感器
 
 /水电|雅鲁藏布江/ => 水电
 /光伏|太阳能/ => 光伏
@@ -254,5 +256,51 @@
 脑机
 基因
 
+
 # 产业政策
 生产力
+
+
+# ═══════════════════════════════════════════════════════════════
+#                         电影科技
+# ═══════════════════════════════════════════════════════════════
+
+
+/电影科技|影视科技/ => 电影科技
+
+/VR电影|虚拟现实电影|\bVR\b|\bAR\b|\bMR\b|虚拟现实|头戴式显示设备|大空间|沉浸式|混合现实|扩展现实|交互电影/ => VR电影
+
+/AI电影|AIGC电影|深度学习|风格迁移|神经网络|AI编剧|AI导演|AI演员|生成式AI|生成式人工智能|文生视频|图生视频|可灵|\bSeedance\b|海螺|\bVidu\b|\bMinimax\b/ => AI与电影
+
+/宇树|智元|众擎/ => 具身智能
+
+/\bCVPR\b|\bICCV\b|\bECCV\b|\bICLR\b|\bICML\b|\bAAAI\b|\bNeurIPS\b|\bNIPS\b/ => AI顶会
+
+/虚拟制片|虚拟摄制|虚拟拍摄|虚拍|实时渲染|游戏引擎|虚幻引擎|\bUnreal Engine\b|\bUE\b|\bUnity\b|CG动画|\bVirtual Production\b|\bVP\b|LED虚拟拍摄|/ => 虚拟摄制
+
+/高帧率|高分辨率|广色域|高动态范围|\bHFR\b|\bHDR\b|杜比视界|菁彩电影/ => 高新技术格式电影
+
+/杜比全景声|\bDTS:X\b|沉浸式音效|空间音频/ => 沉浸式音频
+
+/动作捕捉|面部捕捉|光学捕捉|惯性捕捉|动捕|面捕/ => 动作捕捉
+
+/激光放映|\bIMAX\b|杜比影院|Cinity|LED放映/ => 放映技术
+
+/调色|\bVFX\b|特效|视觉特效|剪辑|数字中间片/ => 影视后期制作
+
+/电影标准|电影标委会|\bISO/TC 36\b|标准化/ => 电影技术标准
+
+/LED摄影棚|影视基地|虚拟影棚|水景棚|科技片场|数字置景|东方影都|永川科技片场/ => 影视基地与基础设施
+
+/数字人|虚拟演员|数字角色|AI数字人|\bDeepfake\b|深度伪造|数字分身|三维扫描|动作捕捉|表演捕捉|\bMetahuman\b/ => 数字人
+
+/影视工业化|电影工业|制片流程|数据管理|云端协同|远程制作|虚拟制片流程/ => 影视工业化
+
+/渲染农场|云渲染|分布式渲染|GPU渲染|实时渲染集群|渲染队列/ => 高性能渲染
+
+/虚拟预演|\bPrevis\b|\bPreviz\b|技术预演|动态故事板|镜头预演|动画预演/ => 虚拟预演
+
+/数字资产|数字资产库|3D数字资产|数字藏品|\bNFT\b|非同质化代币|区块链|数字版权|IP数字化|虚拟资产|元宇宙资产|数字衍生品|数字凭证|链上资产|通证化/ => 数字资产
+
+
+
